@@ -1,0 +1,53 @@
+{
+  "name": "react-gmaps-sample",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/googlemaps": "^3.30.16",
+    "@types/node": "^10.12.5",
+    "@types/react": "^16.7.3",
+    "@types/react-dom": "^16.0.9",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-scripts": "^2.1.0",
+    "react-scripts-ts": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/enzyme": "^3.1.15",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/jest": "^23.3.9",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "jest": "^23.6.0",
+    "react-test-renderer": "^16.6.3",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.6"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+    },
+    "testMatch": [
+      "**/__tests__/*.(ts|tsx)"
+    ]
+  }
+}
